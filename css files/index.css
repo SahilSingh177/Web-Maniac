@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+     background-color: #9e48ff;
+}
+header #first{
+  position: relative;
+  color: rgb(237, 234, 239);
+  font-family: cursive;
+  font-size: 3.5cm;
+  display: flex;
+  justify-content: center;
+  text-shadow: 5px 5px 5px rgb(223, 217, 88);
+  margin-top: 18vh;
+  margin-left: 33%;
+  margin-right: 24%;
+}
+.pop{
+    background-image: url(https://media4.giphy.com/media/WoFB7X0atgMyKb1wBg/giphy.gif?cid=ecf05e4…&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    margin-top: 10vh;
+    display: block;
+    text-align: center;
+    margin-left: 25%;
+    z-index: -1;
+}
+
+.navbar{
+    background-color: rgb(130, 10, 116);
+    color: aliceblue;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 24px;
+}
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: beige;
+}
+a:hover{
+    color: blueviolet;
+}
+#first:hover{
+    color: rgb(161, 24, 132);
+    cursor: pointer;
+}
